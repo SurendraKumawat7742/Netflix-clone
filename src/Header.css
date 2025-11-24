@@ -13,8 +13,8 @@
   background-image: url("background.jpg");
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
-  z-index: -2;
+  filter: blur(2px);
+  /* z-index: -2; */
 }
 
 /* Dark tint overlay like Netflix */
@@ -22,7 +22,7 @@
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
-  z-index: -1;
+  z-index: 6;
 }
 
 /* CONTENT ABOVE EVERYTHING */
